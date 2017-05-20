@@ -1,0 +1,50 @@
+:root {
+    --base: #ff6347;
+    --spacing: 50px;
+    --blur: 10px;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background: crimson;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.hl {
+    color: var(--base);
+}
+
+div {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    vertical-align: middle;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #673AB7;
+    text-shadow: 1px 3px 3px black;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 400px;
+    height: auto;
+    border: var(--spacing) solid var(--base);
+    filter: blur(var(--blur));
+}
