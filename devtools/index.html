@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dev Tools</title>
+</head>
+
+<body>
+    <p onclick="changeTogreen()"> Hello therer i am a paragraph.</p>
+    <script>
+        function changeTogreen(e) {
+            const p = document.querySelector('p');
+            p.style.color = 'green';
+            p.style.fontSize = '40px';
+        }
+
+        console.log('Hello there %s', 'Shameer');
+        console.log('%c Huree', 'color:red;font-size:13px;');
+        console.warn('Warning');
+        console.error("Errror");
+        console.info('Info text');
+    </script>
+</body>
+
+</html>
