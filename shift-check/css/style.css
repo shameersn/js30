@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: red;
+}
+
+div {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    background: #6fc5e6;
+    max-width: 250px;
+    box-shadow: 4px 5px 8px 2px black;
+}
+
+ul {
+    padding: 0;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+input[type=checkbox]:checked+label {
+    color: #f00;
+    font-style: normal;
+    text-decoration: line-through;
+}
